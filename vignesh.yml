@@ -1,0 +1,7 @@
+---
+ - hosts: test
+   tasks:
+    - name: software installation
+      yum
+       name: mysql
+       state: present
